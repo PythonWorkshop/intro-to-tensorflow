@@ -1,6 +1,9 @@
 # Introduction to TensorFlow
 In this tutorial the steps needed to clean a dataset and prepare it for modeling using the machine learning library TensorFlow. The tutorial uses the [Wine](http://archive.ics.uci.edu/ml/datasets/Wine) dataset from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml).
 
+## Prerequesits
+This tutorial includes several machine learning terms. To get a good mathematical understanding of these concepts, please read the Math Primer.
+
 ## Installation Notes
 There are a few packages you will need in order to run this tutorial. We recommend installing the miniconda environment, which makes the installation process quite easy. Please see the README file for this mornings session for instructions on how to install miniconda.
 
