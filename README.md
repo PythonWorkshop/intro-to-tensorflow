@@ -21,8 +21,6 @@ In order to run this tutorial, you will need the following Python packages:
 * skflow
 * tensorflow
 
-(skflow is not part of tensorflow ??)
-
 The first five packages can be installed with the following command:
 
 ```
@@ -35,9 +33,18 @@ Alternatively if you are using conda you can do:
 conda install numpy pandas seaborn scikit-learn
 ```
 
-For TensorFlow, the installation depends on your environment. Below are installation instructions. For detailed
+For **TensorFlow**, the installation depends on your environment. Below are installation instructions. For detailed
 instuctions, please see the TensorFlow
-[README](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md) file.
+[Download and Setup](https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html#download-and-setup) page.
+
+Note, **skflow** is now part of the TensorFlow library. Once you have installed TensorFlow, you can load skflow with
+the following command:
+
+```
+import tensorflow.contrib.learn as skflow
+```
+
+For detailed instructions about skflow, please read [Skflow Readme](https://github.com/tensorflow/skflow).
 
 ### NOTE:
 What's better to use? The virtual environment or normal pip installation?
