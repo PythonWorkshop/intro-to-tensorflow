@@ -3,7 +3,7 @@ In this tutorial the steps needed to clean a dataset and prepare it for modeling
 TensorFlow. The tutorial uses the [Wine](http://archive.ics.uci.edu/ml/datasets/Wine) dataset from the
 [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml).
 
-## Prerequesits
+## Prerequesites
 This tutorial includes several machine learning terms. To get a good mathematical understanding of these concepts,
 please read the Math Primer.
 
