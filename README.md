@@ -14,23 +14,25 @@ which makes the installation process quite easy. Please see the
 install miniconda.
 
 In order to run this tutorial, you will need the following Python packages:
-* numpy
-* pandas
-* seaborn
-* sklearn
-* skflow
-* tensorflow
+* numpy 1.11 or later
+* pandas 0.18 or later
+* matplotlib 1.5 or later
+* seaborn 0.7 or later
+* scikit-learn 0.17.1 or later
+* six 1.10.0 or later
+* tensorflow 0.8.0
+* jupyter
 
-The first five packages can be installed with the following command:
+The first six packages can be installed with the following command:
 
 ```
-pip install numpy pandas seaborn sklearn skflow
+pip install numpy pandas matplotlib seaborn scikit-learn six
 ```
 
 Alternatively if you are using conda you can do:
 
 ```
-conda install numpy pandas seaborn scikit-learn
+conda install numpy pandas matplotlib seaborn scikit-learn six
 ```
 
 For **TensorFlow**, the installation depends on your environment. Below are installation instructions. For detailed
