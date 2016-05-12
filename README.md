@@ -1,3 +1,5 @@
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/PythonWorkshop/intro-to-tensorflow)
+
 # Introduction to TensorFlow
 In this tutorial the steps needed to clean a dataset and prepare it for modeling using the machine learning library
 TensorFlow. The tutorial uses the [Wine](http://archive.ics.uci.edu/ml/datasets/Wine) dataset from the
@@ -20,19 +22,19 @@ In order to run this tutorial, you will need the following Python packages:
 * seaborn 0.7 or later
 * scikit-learn 0.17.1 or later
 * six 1.10.0 or later
-* tensorflow 0.8.0
 * jupyter
+* tensorflow 0.8.0
 
-The first six packages can be installed with the following command:
+The first seven packages can be installed with the following command:
 
 ```
-pip install numpy pandas matplotlib seaborn scikit-learn six
+pip install seaborn scikit-learn jupyter
 ```
 
 Alternatively if you are using conda you can do:
 
 ```
-conda install numpy pandas matplotlib seaborn scikit-learn six
+conda install seaborn scikit-learn jupyter
 ```
 
 For **TensorFlow**, the installation depends on your environment. Below are installation instructions. For detailed
