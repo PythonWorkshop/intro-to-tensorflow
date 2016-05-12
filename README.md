@@ -70,3 +70,5 @@ bokeh serve --show playing_with_outliers
 ```
 
 The application will open in your browser.
+
+
