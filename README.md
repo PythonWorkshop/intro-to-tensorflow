@@ -7,7 +7,7 @@ TensorFlow. The tutorial uses the [Wine](http://archive.ics.uci.edu/ml/datasets/
 
 ## Prerequisites
 This tutorial includes several machine learning terms. To get a good mathematical understanding of these concepts,
-please read the Math Primer.
+please read the [Math Primer](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/MathPrimer/Math%20primer%20for%20ML%20%26%20TensorFlow%20workshop.ipynb).
 
 ## Installation Notes
 There are a few packages you will need in order to run this tutorial. We recommend installing the miniconda environment,
